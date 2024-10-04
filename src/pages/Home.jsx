@@ -1,5 +1,11 @@
+import Genre from "../components/Genre";
+
 const Home = () => {
-  return <div>Hello</div>;
+  return (
+    <div className="home">
+      <Genre />
+    </div>
+  );
 };
 
 export default Home;

@@ -36,10 +36,20 @@ const Navbar = () => {
       <div className="navbar-right">
         <ul className="navbar-right-icons">
           <li>
-            <FaHome className="navbar-right-icon" />
+            <FaHome
+              onClick={() => {
+                navigate("/");
+              }}
+              className="navbar-right-icon"
+            />
           </li>
           <li>
-            <FaHeart className="navbar-right-icon" />
+            <FaHeart
+              onClick={() => {
+                navigate("/my-list");
+              }}
+              className="navbar-right-icon"
+            />
           </li>
           <li>
             {theme ? (
