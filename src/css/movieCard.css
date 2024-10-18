@@ -1,0 +1,54 @@
+.Movie-Card {
+  width: 200px;
+  height: 340px;
+  position: relative;
+  margin: 10px;
+  box-shadow: 0 0 5px #0000005f;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.2s ease-in;
+  border-radius: 15px;
+}
+
+.Movie-Card:hover {
+  transform: scale(1.05);
+}
+
+.Movie-Card .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+
+  background: #0000 linear-gradient(0deg, #000, #0000 35%) repeat scroll 0 0;
+}
+
+.Movie-Card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Movie-Card .Movie-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10px;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  z-index: 2;
+}
+.Movie-Card .Movie-info .Movie-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3px;
+  gap: 3px;
+}
+
+.star-icon {
+  color: gold;
+}

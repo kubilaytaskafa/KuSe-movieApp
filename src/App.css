@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 #root {
-  height: 100vh;
+  height: 100%;
   transition: all 0.3s ease-in-out;
+}
+
+.App {
+  margin: 0;
+  padding-bottom: 129px;
+  box-sizing: border-box;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
 }

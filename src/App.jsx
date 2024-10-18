@@ -3,7 +3,7 @@ import Navbar from "../src/components/Navbar";
 import RouterConfig from "./config/RouterConfig";
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <RouterConfig />
     </div>
